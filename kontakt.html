@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Susanne Grebe - Coaching, Mediation, Workshops - Home</title>
+		<meta name="description" content="coaching, mediation & workshops" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		/>
+		<link rel="stylesheet" href="./custom.css" />
+	</head>
+	<body>
+		<!-- skiplink -->
+		<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+		<header>
+			<!-- mobile nav -->
+			<nav
+				class="navbar navbar-expand-lg navbar-light bg-white d-flex flex-row justify-content-between align-items-center d-lg-none fixed-top"
+			>
+				<a class="navbar-brand" href="/index.html"
+					><img src="./Logos/Logo 1 mobile.svg" alt="Susanne Grebe" style="width: 50px;"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					id="toggler"
+				>
+					<span class="navbar-toggler-bar navbar-toggler-bar-top" id="toggler-top"></span>
+					<span class="navbar-toggler-bar navbar-toggler-bar-bottom" id="toggler-bottom"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/about.html">About</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="coaching"
+								role="button"
+								data-toggle="collapse"
+								data-target="#coaching-dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Coaching
+							</a>
+							<div class="dropdown-menu collapse" aria-labelledby="coaching" id="coaching-dropdown">
+								<a class="dropdown-item" href="/emotion-coaching.html">Emotions Coaching</a>
+								<a class="dropdown-item" href="#">Job Coaching</a>
+								<a class="dropdown-item" href="#">Mental Coaching</a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="mediation"
+								role="button"
+								data-toggle="collapse"
+								data-target="#mediation-dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Mediation
+							</a>
+							<div class="dropdown-menu collapse" aria-labelledby="mediation" id="mediation-dropdown">
+								<a class="dropdown-item" href="/mediation.html">Mediation</a>
+								<a class="dropdown-item" href="#">Konflikt Coaching</a>
+								<a class="dropdown-item" href="#">Konfliktfähigkeit verbessern</a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="workshops"
+								role="button"
+								data-toggle="collapse"
+								data-target="#workshops-dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Workshops
+							</a>
+							<div class="dropdown-menu collapse" aria-labelledby="workshops" id="workshops-dropdown">
+								<a class="dropdown-item" href="/coaching-cafe.html">Coaching Cafe</a>
+								<a class="dropdown-item" href="#">Konflikte</a>
+								<a class="dropdown-item" href="#">Werte</a>
+								<a class="dropdown-item" href="#">Wirkung</a>
+								<a class="dropdown-item" href="#">Kommunikation</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/blog.html">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="/kontakt.html"
+								>Kontakt<span class="sr-only">(current)</span></a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- end mobile nav -->
+
+			<!-- desktop nav -->
+			<nav class="navbar fixed-top navbar-light bg-white" id="navbar-desktop">
+				<div class="container  flex-row justify-content-between align-items-end d-none d-lg-flex">
+					<a class="navbar-brand mr-0" href="/index.html"
+						><img
+							src="./Logos/Logo 1 desktop.svg"
+							alt="Susanne Grebe"
+							style="width: 200px;"
+							id="logo-large"
+						/>
+						<img
+							src="./Logos/Logo 2 mobile.svg"
+							alt="Susanne Grebe"
+							style="width: 200px;"
+							id="logo-small"
+							class="logo-hidden"
+						/>
+					</a>
+
+					<ul class="nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/about.html">About </a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="coaching"
+								role="button"
+								data-toggle="collapse"
+								data-target="#coaching-dropdown-lg"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Coaching
+							</a>
+							<div
+								class="dropdown-menu collapse dropdown-menu-right"
+								aria-labelledby="coaching"
+								id="coaching-dropdown-lg"
+							>
+								<a class="dropdown-item" href="/emotions-coaching.html">Emotions Coaching</a>
+								<a class="dropdown-item" href="#">Job Coaching</a>
+								<a class="dropdown-item" href="#">Mental Coaching</a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="mediation"
+								role="button"
+								data-toggle="collapse"
+								data-target="#mediation-dropdown-lg"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Mediation
+							</a>
+							<div
+								class="dropdown-menu collapse dropdown-menu-right"
+								aria-labelledby="mediation"
+								id="mediation-dropdown-lg"
+							>
+								<a class="dropdown-item" href="mediation.html">Mediation</a>
+								<a class="dropdown-item" href="#">Konflikt Coaching</a>
+								<a class="dropdown-item" href="#">Konfliktfähigkeit verbessern</a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="workshops"
+								role="button"
+								data-toggle="collapse"
+								data-target="#workshops-dropdown-lg"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Workshops
+							</a>
+							<div
+								class="dropdown-menu collapse dropdown-menu-right"
+								aria-labelledby="workshops"
+								id="workshops-dropdown-lg"
+							>
+								<a class="dropdown-item" href="/coaching-cafe.html">Coaching Cafe</a>
+								<a class="dropdown-item" href="#">Konflikte</a>
+								<a class="dropdown-item" href="#">Werte</a>
+								<a class="dropdown-item" href="#">Wirkung</a>
+								<a class="dropdown-item" href="#">Kommunikation</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/blog.html">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="/kontakt.html"
+								>Kontakt<span class="sr-only">(current)</span></a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- end desktop nav -->
+
+			<!-- hero -->
+			<div class="container-fluid hero" style="background-image: url('./Images/Examples/19922.jpg');">
+				<div class="hero-overlay"></div>
+				<div class="hero-inner container">
+					<h1>Kontaktiere Mich</h1>
+					<p class="lead">
+						Questions About What I can Do For You, Or My Services? Leave Me A Message
+					</p>
+				</div>
+				<div class="hero-devider"></div>
+			</div>
+			<!-- end hero -->
+		</header>
+		<!-- end header -->
+
+		<!-- main -->
+		<main class="main contact-page container-fluid">
+			<div class="background"></div>
+			<div class="background-2"></div>
+			<div class="background-3"></div>
+
+			<section class="container contact-page-inner">
+				<div class="contact-page-inner-left">
+					<p>Please fill in the form and I will awnser as soon as possible.</p>
+					<form>
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="name@example.com" />
+						</div>
+						<div class="form-group">
+							<label for="name">First & Last Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Jane Doe" />
+						</div>
+						<div class="form-group">
+							<label for="phone">Phone Number</label>
+							<input type="number" class="form-control" id="phone" placeholder="+49 151 65112233" />
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<select class="form-control" id="subject">
+								<option>Coaching</option>
+								<option>Mediation</option>
+								<option>Workshops</option>
+								<option>Other</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">Your Message To Me</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+						<div class="form-group">
+							<button class="btn btn-custom">Send The Message</button>
+						</div>
+					</form>
+				</div>
+				<div class="contact-page-inner-right">
+					<div id="map"></div>
+				</div>
+			</section>
+		</main>
+		<!-- end main -->
+
+		<!-- footer -->
+		<footer class="container-fluid footer">
+			<div class="footer-top container d-flex flex-column flex-lg-row justify-content-between mt-4 pb-4">
+				<div class="mt-2 mb-2 mt-lg-0 mb-lg-0">
+					<h3 class="footer-address">Wie du mich findest</h3>
+				</div>
+				<div class="mt-2 mb-2 mt-lg-0 mb-lg-0">123 Aachenerstrasse, 51234, Aachen</div>
+				<div class="mt-2 mb-2 mt-lg-0 mb-lg-0">
+					<a href="tel:01757243473" class="footer-link">01757243473</a>
+				</div>
+				<div class="mt-2 mb-2 mt-lg-0 mb-lg-0">
+					<a href="kontakt.html" class="footer-link">Kontakt</a>
+				</div>
+			</div>
+			<div class="footer-middle container d-flex flex-column flex-md-row justify-content-between">
+				<div class="footer-middle-first-col d-flex flex-column mt-4">
+					<button
+						type="button"
+						class="btn btn-dark mt-3 mb-1 pt-2 pb-2 pt-md-3 pb-md-3 text-uppercase font-weight-bold"
+					>
+						Stellt Mich Ein
+					</button>
+					<button
+						type="button"
+						class="btn btn-outline-dark mt-2 mb-3 pt-2 pb-2 pt-md-3 pb-md-3 text-uppercase font-weight-bold"
+					>
+						Was mein Kunde sagt
+					</button>
+				</div>
+				<div class="footer-middle-second-col mt-4 mb-4 ml-md-4">
+					<div class="d-flex flex-row justify-content-end">
+						<div class="footer-middle-logo pr-3 mt-3 mb-1">
+							<img src="./Logos/Logo 1 mobile.svg" alt="Susanne Grebe" style="width: 75px;" />
+						</div>
+						<div class="footer-middle-promo pl-3 mt-3 mb-1">
+							<p>
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia distinctio similique
+								molestiae dolore voluptate eveniet perferendis necessitatibus quibusdam et facere.
+							</p>
+							<p>
+								<a href="about.html" class="footer-link">Erfahren Sie mehr über Susanne</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom container d-flex flex-column flex-lg-row justify-content-between">
+				<div class="footer-bottom-first-col mt-4 mb-4 pt-2 pb-2 text-center">
+					<p>
+						&copy; 2020 <a href="/index.html" class="footer-link">susanne-grebe.de</a> | design by
+						<a href="https://codemind.dev" class="footer-link">CodeMind</a>
+					</p>
+				</div>
+				<div class="footer-bottom-second-col mb-4 mt-lg-4 pt-2 pb-2">
+					<div class="d-flex flex-column flex-md-row justify-content-between text-center text-lg-right">
+						<a class="footer-link mt-2 mt-md-1 mb-1 mt-lg-0 mb-lg-0" href="#">Cookie-Zustimmung</a>
+
+						<a class="footer-link mt-1 mb-1 mt-lg-0 mb-lg-0 ml-lg-3" href="#">Datenschutz</a>
+
+						<a class="footer-link mt-1 mb-1 mt-lg-0 mb-lg-0 ml-lg-3" href="#">Seitenverzeichnis</a>
+
+						<a class="footer-link mt-1 mb-1 mt-lg-0 mb-lg-0 ml-lg-3" href="#">Unterstützung</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+
+		<!-- scroll-to-top -->
+		<div class="scroll-to-top" id="scroll-to-top">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+				<polygon
+					points="9 3.828 2.929 9.899 1.515 8.485 10 0 10.707 .707 18.485 8.485 17.071 9.899 11 3.828 11 20 9 20 9 3.828"
+				/>
+			</svg>
+		</div>
+		<!-- end scroll-to-top -->
+
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script
+			async
+			defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB7Ial0ifpSHaexRUGDC_JL-QVuOrYnzg&callback=initMap"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+		<script src="https://kit.fontawesome.com/b4b9472e08.js" crossorigin="anonymous"></script>
+		<script src="./app.js"></script>
+	</body>
+</html>
